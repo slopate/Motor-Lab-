@@ -10,7 +10,7 @@ int servoPos = 0;
 void setup() {
   Serial.begin(115200);
   // put your setup code here, to run once:
-  myStepper.setSpeed(11);
+  myStepper.setSpeed(10);
   myServo.attach(18);
 }
 
